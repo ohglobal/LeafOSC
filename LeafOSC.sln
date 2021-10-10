@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LeafOSC", "LeafOSC.pyproj", "{72596583-46C2-4FAB-A3E9-BBA40BC547C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72596583-46C2-4FAB-A3E9-BBA40BC547C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72596583-46C2-4FAB-A3E9-BBA40BC547C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {030971FA-25F3-42EC-93E3-598A7BC33910}
+	EndGlobalSection
+EndGlobal
