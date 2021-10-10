@@ -215,11 +215,13 @@ if __name__ == "__main__":
 	print()
 	
 	#get the IP of the leaf controller
-	leafIP = str(input("Please enter the IP address of the Nanoleaves or enter blank to use default \n"))
-	if(leafIP == ""):
-		leafIP = "192.168.1.203"
-
-	print(leafIP)
+	leafIP = "192.168.1.203"
+	print("Would you like to [1] enter the IP address of the Nanoleaves or [2] use default 192.168.1.203 \n")
+	sl = int(input())
+	if(sl == 1):
+		leafIP = str(input("Nanoleaf IP?: \n"))
+	else:
+		print("Using default Nanoleaf settings")
 
 	#OSC Setup
 	print("Would you like to [1] Input network parameters or [2] use default: 127.0.0.1:1234 (sending) :7050 (receiving)")
