@@ -6,6 +6,9 @@ Nanoleaf lighting instruments, including Aurora Light Panels (the classic triang
 
 The link is bidirectional: OSC can be used to change the lights or to receive information about the lights.
 
+## First Setup
+When first running this application on your computer, you need to pair to the Nanoleaves. Hold down the power button on the controller for 5-7 seconds, then run this program and answer the two prompts within 30 seconds of releasing the power button to pair. Once paired, this process does not need to be repeated.
+
 ## Commands to Send
 /leafOSC/setPower - send a 1 to turn on the panels, send a 0 to turn them off (int 1,0)
 
